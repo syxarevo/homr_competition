@@ -26,4 +26,4 @@ For all model parameters there are sensible defaults (set at the top of homr_com
 
 ## Results
 
-With default parameters the proposed model achives 0.02 avg. edit distance for the validation set.
+With default parameters the proposed model achieves **0.02** avg. edit distance for the validation set.
