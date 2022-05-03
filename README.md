@@ -23,3 +23,7 @@ Images are fed through two one-dimensional convolutional layers followed by two 
 ## Model parameters
 
 For all model parameters there are sensible defaults (set at the top of homr_competition.py), so the project can be executed simply by running homr_competition.py script without parameters.
+
+## Results
+
+With default parameters the proposed model achives 0.02 avg. edit distance for the validation set.
