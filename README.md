@@ -5,10 +5,10 @@ In this project we implemet a Convolutional Recursive Neural Network for the tas
 
 ## Project layout
 
-- homr_competition.py - Main driving script. Trains the model and saves predictions for the test dataeset in a text file.
-- homr_model.py - Defines neural network used.
-- homr_dataset.py - Project dataset definition;
-- homr_dataset_utils.py - Minor utility functions for building data pipeline.
+- homr_competition.py - main driving script. Trains the model and saves predictions for the test dataset in a text file.
+- homr_model.py - defines neural network used.
+- homr_dataset.py - project dataset definition;
+- homr_dataset_utils.py - minor utility functions for building data pipeline.
 
 ## Dataset & evaluation
 
