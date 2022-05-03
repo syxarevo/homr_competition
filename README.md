@@ -12,7 +12,7 @@ In this project we implemet a Convolutional Recursive Neural Network for the tas
 
 ## Dataset & evaluation
 
-The inputs are grayscale images of monophonic scores starting with a clef, key signature, and a time signature, followed by several staves. The dataset is downloaded automatically via homr_dataset.py module if missing (is has ~500MB, so it might take a while). Sample training data can be found [here](https://ufal.mff.cuni.cz/~straka/courses/npfl114/2122/demos/homr_train.html).
+The inputs are grayscale images of monophonic scores starting with a clef, key signature, and a time signature, followed by several staves. The dataset is downloaded automatically via homr_dataset.py module if missing (is has ~500MB, so it might take a while). Sample training data together with labels can be found [here](https://ufal.mff.cuni.cz/~straka/courses/npfl114/2122/demos/homr_train.html).
 
 The evaluation is performed by computing edit distance of predicted sequence to the target (true) sequence, normalized by its length. The smaller the average edit distance is, the better.
 
