@@ -121,8 +121,7 @@ class Model(tf.keras.Model):
                                                         beam_width=self._ctc_beam)[0][0]
         else:
             predictions = tf.nn.ctc_greedy_decoder(tf.transpose(logits, [1, 0, 2]),
-                                                   sequence_length=tf.cast(tf.fill([batch_size], width), tf.int32))[0][
-                0]
+                                                   sequence_length=tf.cast(tf.fill([batch_size], width), tf.int32))[0][0]
 
         length = tf.unique_with_counts(predictions.indices[:, 0])[-1]
         predictions = tf.RaggedTensor.from_tensor(tf.sparse.to_dense(predictions), lengths=length)
